@@ -6,3 +6,6 @@ target_link_libraries(array_of_nested_structs fastcdr fastrtps)
 
 add_executable(empty_sequence_of_nested_structs "src/empty_sequence_of_nested_structs.cpp")
 target_link_libraries(empty_sequence_of_nested_structs fastcdr fastrtps)
+
+add_executable(could_not_delete "src/could_not_delete.cpp")
+target_link_libraries(could_not_delete fastcdr fastrtps)
