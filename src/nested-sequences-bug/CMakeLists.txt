@@ -1,0 +1,8 @@
+add_executable(sequence_of_nested_structs "src/sequence_of_nested_structs.cpp")
+target_link_libraries(sequence_of_nested_structs fastcdr fastrtps)
+
+add_executable(array_of_nested_structs "src/array_of_nested_structs.cpp")
+target_link_libraries(array_of_nested_structs fastcdr fastrtps)
+
+add_executable(empty_sequence_of_nested_structs "src/empty_sequence_of_nested_structs.cpp")
+target_link_libraries(empty_sequence_of_nested_structs fastcdr fastrtps)

@@ -1,0 +1,4 @@
+[submodule "Fast-DDS"]
+  path = Fast-DDS
+  url = https://github.com/methylDragon/Fast-DDS.git
+  branch = master
