@@ -5,7 +5,7 @@ Minimal examples for detailing issues for FastDDS
 
 ```shell
 git clone https://github.com/methylDragon/fastdds-pr-minimal-examples.git
-git module update --init --recursive
+git submodule update --init --recursive
 
 mkdir build
 cd build
