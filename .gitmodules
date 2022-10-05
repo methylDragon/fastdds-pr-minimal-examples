@@ -2,3 +2,8 @@
   path = Fast-DDS
   url = https://github.com/methylDragon/Fast-DDS.git
   branch = master
+  
+[submodule "Fast-CDR"]
+  path = Fast-CDR
+  url = https://github.com/eProsima/Fast-CDR.git
+  branch = master

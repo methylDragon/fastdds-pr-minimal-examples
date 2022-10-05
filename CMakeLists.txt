@@ -23,5 +23,6 @@ endif()
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 add_subdirectory(Fast-DDS)
+add_subdirectory(Fast-CDR)
 add_subdirectory(src/nested-sequences-bug)
 add_subdirectory(src/nested-field-type-registration-bug)
